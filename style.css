@@ -85,47 +85,66 @@ main{
     margin-bottom: 135px;
 }
 
+.left h2 {
+    color: black;
+    font-size: 20px;
+    font-family: arial;
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+
+.left h2 span {
+    font-size: 25px;
+}
+
+.left img {
+    margin-bottom: 21px;
+}
+
+.left,
+.right {
+    width: 540px;
+}
+
+.left p {
+    color: #333333;
+    font-family: arial;
+    line-height: 27px;
+    user-select: none;
+}
+
+.right__item {
+    border: 4px solid #aeaeae;
+    display: flex;
+}
+
 .main__row {
     display: flex;
     justify-content: space-between;
 }
 
-.d-block {
-    display: block;
+.right__item img {
+    margin: 13px 38px 14px 23px;
 }
-
-.main__row-item {
-    border: 3px solid black;
-}
-
-.main__row-item:nth-of-type(2) {
-    margin: 0 30px;
-}
-.main__item-title {
+.right__item-info h3 {
     font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
+    color: black;
+    font-family: arial;
+    line-height: 16px;
+    margin: 15px 0;
 }
-.size {
+
+.right__item-info p {
+    color: #919191;
+    font-family: arial;
+    line-height: 24px;
+}
+.right {
     display: flex;
-    margin-top: 20px;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.size__btn {
-    font-size: 18px;
-    background: #000;
-    color: white;
-    padding: 5px;
-    border: none;
-    margin: 0 5px;
-}
-
-.size__btn:hover {
-    background: #c1bc45;
-    color: white;
-    transition: 500ms;
-}
 
 footer {
     background: #eee9e9;
