@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul{
+    display: flex;
+}
+
+.logo {
+    /* margin: 10px 0 0 17px; */
+    margin-top: 10px;
+    margin-left: 17px;
+}
+
+header nav ul a {
+    font-size: 18px;
+    color: #4d4d4d;
+    font-family: arial;
+    font-weight: bold;
+    padding: 19px 24px 21px 28px;
+    display: inline-block;
+}
+
+header nav ul a:hover {
+    background: #c1bc45;
+    color: white;
+    transition: 500ms;
+}
+
+header {
+    background: url(../img/headerbg.jpg) no-repeat center center /cover;
+    height: 672px;
+}
+
+.header__content h1 {
+    font-size: 100px;
+    color: #c0bc45;
+    font-family: arial;
+    line-height: 72px;
+    margin-bottom: 15px;
+}
+
+.header__content p {
+    color: #4d4d4d;
+    font-size: 18px;
+    font-family: arial;
+}
+
+.header__content span {
+    color: black;
+    font-weight: 900;
+}
+
+.header__row {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header__content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main{
+    margin-top: 88px;
+    margin-bottom: 135px;
+}
+
+.main__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-block {
+    display: block;
+}
+
+.main__row-item {
+    border: 3px solid black;
+}
+
+.main__row-item:nth-of-type(2) {
+    margin: 0 30px;
+}
+.main__item-title {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.size {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.size__btn {
+    font-size: 18px;
+    background: #000;
+    color: white;
+    padding: 5px;
+    border: none;
+    margin: 0 5px;
+}
+
+.size__btn:hover {
+    background: #c1bc45;
+    color: white;
+    transition: 500ms;
+}
+
+footer {
+    background: #eee9e9;
+    padding-top: 110px;
+    padding-bottom: 30px;
+}
+
+footer nav ul a{
+    font-size: 18px;
+    color: #4d4d4d;
+    font-family: arial;
+    font-weight: bold;
+    margin-left: 52px;
+    padding-bottom: 10px;
+}
+footer nav ul a:hover{
+    color: #bc3333;
+    border-bottom: 4px solid #bc3333;
+}
+
+footer nav {
+    align-items: center;
+}
+
+.footer__text {
+    font-size: 18px;
+    font-family: arial;
+    font-weight: bold;
+    color: #5a5a5a;
+    text-align: center;
+    margin-top: 65px;
+}
